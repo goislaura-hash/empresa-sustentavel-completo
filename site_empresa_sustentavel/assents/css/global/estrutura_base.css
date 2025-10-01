@@ -1,0 +1,59 @@
+/*estrutura base que todas as paginas vão receber*/
+body{
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+}
+#container{
+    position: relative;
+    margin: 0 auto;
+    width: 1246px;
+    height: 4050px;
+    background-color: rgb(0, 0, 0);
+}
+#header{
+    background-color: rgb(0, 0, 0);
+    width: 1340px;
+    height: 60px;
+    position: fixed;
+    top: 18px;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    margin-left: 60px;
+    border-radius: 12px;
+}
+#logo{
+    position: relative;
+    width: 50px;
+    left: 49px;
+}
+#logo img{
+    width: 49px;
+    position: relative;
+    top: 3px;
+}
+#tresgraos{
+    color: white;
+    position: relative;
+    margin-left: 55px;
+    top: -4px;
+    font-size: 13px;
+}
+#menu{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 20px;
+    margin-left: 692px;
+    font-size: 18px;
+    height: 20px;
+}
+#header ul li {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#header a:hover{
+    color: rgb(200, 170, 0);
+}
+

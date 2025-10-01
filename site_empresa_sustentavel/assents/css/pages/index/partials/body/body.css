@@ -1,0 +1,409 @@
+/*conteúdo*/
+@import url(/assents/css/global/variables.css);
+/*primeira seção*/
+#primeira{
+    background-color:  #b08e6b;      
+    background-repeat: no-repeat;
+    position: relative;
+    height: 700px;
+    width: 1400px;
+    right: 80px;
+    border-radius: 24px;
+    top: 60px;
+    z-index: 1;
+}
+#imagem1{ 
+    position: relative;
+    left: 700px;
+    top: -300px;
+    width: 700px;
+    z-index: 2;
+}
+#titulo1{
+    width: 660px;
+    height: 240px;
+    position: relative;
+    top: 200px;
+    left: 70px;
+}
+#titulo1 h1{
+    width: 640px;
+    position: relative;
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    top: 20px;
+}
+#subtitulo1{
+    border-radius: 8px;
+    position: relative;
+    left: 70px;
+    text-align: left;
+    width: 660px;
+    height: 60px;
+    top: 187px;
+}
+#subtitulo1 h2{
+    font-size: 20px;
+    font-family: var(--font-principal);
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 600px;
+}
+
+/*segunda seção*/
+#segunda{
+    background-color: black;
+    position: relative;
+    width: var(--width-div);
+    right: var(--right-div);
+    height: 500px;
+    top: 90px;
+}
+#titulo2{
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    top: 18px;
+    color: rgba(255, 255, 255, 0.538);
+}
+#subtitulo2{
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    width: 620px;
+    position: relative;
+    left: var(--left-div);
+    top: 90px;
+}
+.destacada2{
+    color: rgb(11, 77, 11);
+}
+#biografia{
+    width: 100px;
+    position: relative;
+    top: 80px;
+    left: 200px;
+    color: rgba(255, 255, 255, 0.59)
+}
+#texto2{
+    position: relative;
+    left: 900px;
+    width: 400px;
+    top: -140px;
+    font-family: var(--font-principal);
+    color: rgba(255, 255, 255, 0.59);
+}
+#saibaMais2{
+    position: relative;
+    left: 1020px;
+    width: 80px;
+    top: -140px;
+    font-family: var(--font-principal);
+}
+#saibaMais2 a{
+    text-decoration: none;
+    color: rgba(86, 82, 82, 0.557);
+}
+
+/*terceira seção*/
+#terceiro{
+    background: url("/assents/img/index/quarta_sessao/fundo4.jpg") #b08e6b;
+    position: relative;
+    width: var(--width-div);
+    right: 104px;
+    top: 80px;
+    height: 780px;;
+    z-index: 1;
+}
+#titulo3{
+    color: rgb(255, 255, 255);
+    width: 280px;
+    position: relative;
+    left: var(--left-div);
+    top: 120px;
+    font-size: 27px;
+    border-left: 3px solid rgb(220, 188, 3);
+    padding-left: 10px;
+}
+#subtitulo3{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 80px;
+    top: 100px;
+    width: 230px;
+    font-family: var(--font-principal);
+    font-size: 20px;
+    border-top: 3px solid rgb(220, 188, 3);;
+}
+#subtitulo3 h3{
+    width: 330px;
+    position: relative;
+    left: 40px;
+}
+#sinopse{
+    color: gold;
+    position: relative;
+    top: 180px;
+    left: var(--left-div);
+    width: 440px;
+    font-size: 22px;
+    z-index: 2;
+}
+#texto3{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 170px;
+    left: var(--left-div);
+    width: 480px;
+    font-size: 18px;
+    font-family: var(--font-principal);
+    z-index: 1;
+    font-size: 20px;
+}
+#lerMais3{
+    position: relative;
+    top: 170px;
+    left: 106px;
+    width: 80px;
+    font-family: var(--font-principal);
+}
+#lerMais3 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/*Imagem Mundo*/
+#img-mundo3{
+    position: relative;
+    width: 200px;
+    height: 360px;
+    left: 650px;
+    top: -288px;
+}
+#img-mundo3 img{
+    width: 220px;
+    height: 390px;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 1px 4px 12px rgb(0, 0, 0);
+}
+#img3_natureza img{
+   position: relative;
+   width: 280px;
+   height: 440px;
+   left: 920px;
+   top: -673px;
+   border-radius: 30px;
+   box-shadow: 1px 1px 12px rgb(0, 0, 0);
+}
+/*Imagem Natureza*/
+#img3_natureza img{
+    width: 260px;
+    height: 460px;
+}
+
+/*Quarta sessão*/
+#quarta{
+    background-color: black;
+    position: relative;
+    width: var(--width-div);
+    right: var(--right-div);
+    top: 100px;
+    height: 780px;
+    z-index: 1;
+}
+#titulo4{
+    position: relative;
+    text-align: center;
+    top: 150px;
+    color: white;
+}
+.destacada4-1{
+    color: gold;
+}
+.lista{
+    color: white;
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+/**Carro eletrico*/
+#carro_eletrico{
+    width: 300px;
+    border: white solid 1px;
+    text-align: center;
+    border-radius: 15px;
+    background-color:   rgb(32, 95, 3);
+    color: gold;
+    font-size: 20px;
+    height: 320px;
+}
+#resumo4-1{
+    background-color: aqua;
+    color: black;
+    position: relative;
+    width: 240px;
+    left: 30px;
+}
+#resumo4-1 h2{
+    background-color: blue;
+    height: 130px;
+    width: 240px;
+    font-size: 22px;
+    text-align: center;
+}
+/*timecoffee*/
+#timecaffee{
+    width: 300px;
+    border: white solid 1px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(174, 230, 148);
+    color: gold;
+    font-size: 20px;
+    height: 320px;
+}
+#resumo4-2{
+    background-color: aqua;
+    text-align: justify;
+    color: black;
+    position: relative;
+    width: 240px;
+    left: 30px;
+}
+#resumo4-2 h2{
+    background-color: blue;
+    height: 130px;
+    width: 240px;
+    font-size: 22px;
+}
+/*Reciclagem reversa*/
+#reciclagem_reversa{
+    width: 300px;
+    border: white;
+    text-align: center;
+    border-radius: 15px;
+    background-color:   rgb(231, 228, 228);
+    color: gold;
+    font-size: 20px;
+    height: 320px;
+}
+#resumo4-3{
+    background-color: aqua;
+    text-align: justify;
+    color: black;
+    position: relative;
+    width: 240px;
+    left: 30px;
+}
+#resumo4-3 h2{
+    background-color: blue;
+    height: 130px;
+    width: 240px;
+    font-size: 22px;
+}
+/*Agricultura familiar*/
+#agricultura_familiar{
+    width: 300px;
+    border: white solid 1px;
+    text-align: center;
+    border-radius: 15px;
+    background-color:   rgb(32, 95, 3);
+    color: gold;
+    font-size: 20px;
+    height: 320px;
+}
+#resumo4-4{
+    background-color: aqua;
+    text-align: justify;
+    color: black;
+    position: relative;
+    width: 240px;
+    left: 30px;
+}
+#resumo4-4 h2{
+    background-color: blue;
+    height: 130px;
+    width: 240px;
+    font-size: 22px;
+}
+
+/*Quinta sessão*/
+#quinta{
+    background-color: #b08e6b;
+    position: relative;
+    top: 78px;
+    width: 100%;
+    height: 700px;
+    right: var(--right-div);
+    width: var(--width-div);
+}
+#titulo5{
+    width: 500px;
+    position: relative;
+    top: 60px;
+    left: var(--left-div);
+    border-bottom: 2px solid;
+}
+#titulo5 h1{
+    position: relative;
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+}
+#subtitulo5{
+    position: relative;
+    top: 170px;
+    width: 362px;
+    left: var(--left-div);
+}
+#subtitulo5 h2{
+    width: 370px;
+    color: rgb(0, 0, 0);
+}
+#img5 img{
+    position: absolute;
+    width: 1400px;
+    height: 600px;
+    top: 50%;
+    border-radius: 40px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#img5-2 img{
+    width: 250px;
+    position: relative;
+    left: 1000px;
+    top: -200px;
+    border-radius: 22px;
+    z-index: 2;
+}
+#titulo5-2{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    position: relative;
+    top: -500px;
+    z-index: 2;
+    font-size: 20px;
+    left: var(--left-div);
+}
+#texto5{
+    background-color: aqua;
+    z-index: 2;
+    position: relative;
+    background-color: #b08d6b38;
+    top: 430px;
+    width: 420px;
+    left: var(--left-div);
+    color: rgb(233, 232, 232);
+    border-radius: 20px;
+    padding: 1px;
+}
+#texto5 h3{
+    position: relative;
+    width: 400px;
+    left: 14px;
+}
+
+
+
